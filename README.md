@@ -24,6 +24,7 @@ psql -h <host> -p <port> -U <username> -d <database>
 ## Create table query
 
 ## Query to add the data into the table
-
+```bash
 INSERT INTO myapp(name, topic)
 VALUES ('wilshan', 'devops');
+```
